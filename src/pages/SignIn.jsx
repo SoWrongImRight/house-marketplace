@@ -1,7 +1,7 @@
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth"
 import {useState} from 'react'
 import {Link, useNavigate} from 'react-router-dom'
-import { toast, Toast } from 'react-toastify'
+import { toast } from 'react-toastify'
 import {ReactComponent as ArrowRightIcon} from '../assets/svg/keyboardArrowRightIcon.svg'
 import visibilityIcon from '../assets/svg/visibilityIcon.svg'
 
